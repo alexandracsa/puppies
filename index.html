@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Puppies</title>
+  <!--font link starts here -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <!--font link ends here -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            blue: '#B5C0D0',
+            pink: '#CCD3CA',
+            yellow: '#F5E8DD',
+            green: '#EED3D9',
+            white: '#fafcfb'
+          }
+        },
+        fontFamily: {
+          display: ['"Cormorant Garamond"']
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <header class="w-screen">
+    <div class="w-full h-[80px] bg-blue flex gap-5 justify-evenly">
+      <img class="w-[95px] h-[80px]" src="./logo2.png"/>
+      <h1 class="text-6xl text-green font-display italic font-bold"> Puppies </h1>
+      <ul class="flex gap-4">
+        <li> <a href="https://www.youtube.com/"> <img
+src="https://static.vecteezy.com/system/resources/previews/023/986/704/non_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"
+              class="w-[30px] h-[30px]"> </a></li>
+        <li class="font-display font-bold text-1xl"> Puppies</li>
+        <li class="font-display font-bold text-1xl"> <a href="https://770aa891-1e93-4a5a-b51d-9c8da3392a90-00-s9h105jflfiz.riker.replit.dev/"> Home</a> </li>
+      </ul> 
+    </div>
+    <div class="w-full h-[40px] flex justify-center bg-yellow">
+    </div>
+  </header>
+  
+  <section class="flex w-screen">
+    <div class="flex flex-col font-bold justify-center font-display w-1/2 p-10">
+      <h2 class="text-3xl mb-10">Find your dream puppy</h2>
+      <p class="text-3sm mb-5">In this page finding your dream puupy is completly free! Also, you can find the perfect breed that fits you and your family.</p>
+      <button class="bg-pink h-[35px]"> Look for puppies </button>
+    </div>
+    <div class="w-1/2">
+      <img class="w-full" src="https://www.shutterstock.com/image-photo/large-group-ten-different-kind-260nw-509125105.jpg">
+    </div>
+  </section>
+
+  
+  <section class="gap-3 p-10 w-screen h-auto flex">
+    <article class="w-1/3 h-auto bg-green rounded-xl p-10 flex flex-col gap-3 items-center">
+
+      <div class="w-[180px]">
+        <img class="object-cover -10" src="https://images.fineartamerica.com/images-medium-large-5/dalmatian-puppy-dog-johan-de-meester.jpg" alt="">
+        <h2 class="font-display font-bold"> Dalmatian:
+        They are highly energetic, playful and sensitive dogs. They are loyal to their family and good with children, although some Dalmatian experts caution that the breed may be too energetic for very small children. These dogs are intelligent, can be well trained and make good watchdogs.</h2>
+      </div>
+    </article>
+    
+    <article class="w-1/3 h-auto bg-green rounded-xl p-10 flex flex-col gap-3 items-center">
+
+      <div class="w-[180px]">
+        <img class="object-cover -10" src="https://images.photowall.com/products/57215/golden-retriever-puppy.jpg?h=699&q=85" alt="">
+        <h2 class="font-display font-bold"> <strong>Golden Retriever:</strong>
+          They are attentive and easily trained, meaning you and the kids can have hours of fun teaching them tricks and games. One of the UK's most popular family pets, Golden Retrievers' gentle, loving nature makes them a great choice for families with children of all ages.
+        </h2>
+      </div>
+    </article>
+
+    <article class="w-1/3 h-auto bg-green rounded-xl p-10 flex flex-col gap-3 items-center">
+
+      <div class="w-[180px]">
+        <img class="object-cover -10" src="https://www.akc.org/wp-content/uploads/2021/07/Australian-Shepherd-puppy-3-months-old-laying-down-in-the-shade-with-a-toy.jpeg" alt="">
+        <h2 class="font-display font-bold"> <strong>Australian Shepherd:</strong>
+        They're very active and energetic, and love to run and play with both kids and adults. Australian Shepherds love the attention that playtime brings. They're also generally quite placid and easy-going! Their instinctual desire to herd livestock makes them very protective</h2>
+      </div>
+    </article>
+
+    
+  </section>
+  <footer class="w-screen bg-blue justify-evenly items-center flex">
+    <figure class="flex ">
+      <img class="rounded-full w-[6rem]" src="https://static.wixstatic.com/media/dffe26_354645d131ed4a0986a77f32c912a554~mv2.jpg/v1/fit/w_2500,h_1330,al_c/dffe26_354645d131ed4a0986a77f32c912a554~mv2.jpg" alt="Saint Augustine Logo">
+      <figcaption>Saint Augustine Prep</figcaption>
+      </figure>
+    <ul>
+      <li>Check out our
+        <a href="" target="_blank" class="underline"> Replit code</a>
+      </li>
+      <li> Check out our <a href="https://www.petfinder.com/" target="_blank" class="underline">inspiration</a>
+        
+      </li>
+    </ul>
+
+    <address>
+      <p>Ana, Valeria, Alexandra, Marianne</p>
+      <p>Web Design Class</p>
+      <p>8th Grade</p>
+    </address>
+  </footer>
+</body>
+
+</html>
